@@ -30,17 +30,17 @@ Firebase는 **Build**, **Run**, **Grow** 세 가지 카테고리로 서비스를
 - **Doodle**: Remote Config & A/B Test로 온보딩 개선 → 투표 생성 42% 증가, 유지율 향상
 
 ### 🎮 게임 산업
-- **Halfbrick**: Remote Config Personalization으로 ARPDAU 16% 증가
+- **Halfbrick**: Remote Config Personalization으로 ARPDAU 16% 증가.
 - **Ahoy Games**: 광고 및 과금 요소 개인화 → 인앱 구매 전환율 최대 25% 상승
-- **Gameloft**: Crashlytics 도입으로 크래시 10%p 감소, 세션 시간 증가
+- **Gameloft**: Crashlytics 도입으로 크래시 10%p 감소, 세션 시간 증가.
 
 ### 📰 미디어
 - **Le Figaro**: Firestore + Cloud Functions로 인터랙티브 콘텐츠 구축 → 구독 전환율 3배 증가
-- **Tamedia**: Firebase Messaging으로 열성 사용자에게 맞춤 제안 → 구독 전환률 증가
+- **Tamedia**: Firebase Messaging으로 열성 사용자에게 맞춤 제안 → 구독 전환률 증가.
 
 ### 💳 금융/커머스
 - **American Express**: Test Lab로 테스트 병렬화 → 테스트 비용 50% 절감
-- **eBay Motors**: AutoML Vision Edge로 이미지 자동 태깅 → UX 및 운영 효율 향상
+- **eBay Motors**: AutoML Vision Edge로 이미지 자동 태깅 → UX 및 운영 효율 향상.
 
 ## 4. 장단점 요약
 
