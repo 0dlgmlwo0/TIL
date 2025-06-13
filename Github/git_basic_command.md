@@ -40,8 +40,8 @@ git remote add origin https://github.com/yourname/repo.git
 ## ✅ 4. 변경사항 커밋
 
 ```bash
-git add .               # 모든 변경사항을 스테이징
-git commit -m "메시지"  # 커밋 메시지를 작성하여 저장
+git add .               # 모든 변경사항을 스테이징.
+git commit -m "메시지"  # 커밋 메시지를 작성하여 저장.
 ```
 
 > 🔹 `git add`는 작업한 파일을 커밋 준비 영역(Stage)에 올리고,  
@@ -49,11 +49,11 @@ git commit -m "메시지"  # 커밋 메시지를 작성하여 저장
 
 ---
 
-## ✅ 5. 원격 저장소에 푸시
+## ✅ 5. 원격 저장소에 푸시.
 
 ```bash
-git push origin main     # main 브랜치에 푸시
-git push -u origin main  # 최초 푸시 시 브랜치 추적 정보 설정
+git push origin main     # main 브랜치에 푸시.
+git push -u origin main  # 최초 푸시 시 브랜치 추적 정보 설정.
 ```
 
 > 🔹 로컬 저장소의 변경사항을 원격 저장소(GitHub 등)에 업로드합니다.
