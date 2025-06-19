@@ -9,8 +9,8 @@
 public class Dog {
     void bark() { System.out.println("멍멍"); }
 }
-Dog myDog = new Dog(); // 객체 생성
-myDog.bark(); // 멍멍 출력
+Dog myDog = new Dog(); // 객체 생성.
+myDog.bark(); // 멍멍 출력.
 ```
 
 ---
@@ -26,10 +26,10 @@ public MapController(HospitalService hospitalService) {
 
 | 요소 | 설명 |
 |------|------|
-| `@Autowired` | 필요한 객체를 스프링이 자동으로 넣어줌 |
-| `HospitalService hospitalService` | 외부에서 받아온 객체 (매개변수) |
-| `this.hospitalService` | 클래스 안에 저장해둘 내 변수 |
-| `=` | 받은 걸 내 변수에 저장 |
+| `@Autowired` | 필요한 객체를 스프링이 자동으로 넣어줌. |
+| `HospitalService hospitalService` | 외부에서 받아온 객체 (매개변수.) |
+| `this.hospitalService` | 클래스 안에 저장해둘 내 변수. |
+| `=` | 받은 걸 내 변수에 저장. |
 
 
 
@@ -43,12 +43,12 @@ this.hospitalService = hospitalService;
 
 | 구분 | 설명 |
 |------|------|
-| `this.hospitalService` | 클래스 안의 필드 변수 |
-| `hospitalService` | 생성자에 들어온 매개변수 |
-| 이름을 같게 쓰는 이유 | 의미가 명확하고 자연스럽기 때문 |
-| 안 헷갈리게 하는 방법 | `this.` 키워드로 구분 가능 |
+| `this.hospitalService` | 클래스 안의 필드 변수. |
+| `hospitalService` | 생성자에 들어온 매개변수. |
+| 이름을 같게 쓰는 이유 | 의미가 명확하고 자연스럽기 때문. |
+| 안 헷갈리게 하는 방법 | `this.` 키워드로 구분 가능. |
 
-> 예: `this.apple = apple;` → 클래스 내부에 저장하기 위한 명확한 표현
+> 예: `this.apple = apple;` → 클래스 내부에 저장하기 위한 명확한 표현.
 
 ---
 

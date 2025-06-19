@@ -3,19 +3,19 @@
 ```
 [1] 사용자가 브라우저에서 주소 입력 또는 클릭 (/map, /mapData)
   ↓
-[2] 스프링의 DispatcherServlet이 요청 받음
+[2] 스프링의 DispatcherServlet이 요청 받음.
   ↓
-[3] 요청 URL에 맞는 Controller의 메서드 실행
+[3] 요청 URL에 맞는 Controller의 메서드 실행.
   ↓
-[4] Controller → Service 호출
+[4] Controller → Service 호출.
   ↓
 [5] Service → DAO 호출 (데이터 꺼내기)
   ↓
-[6] DAO → MyBatis Mapper → SQL 실행 → DB에서 데이터 조회
+[6] DAO → MyBatis Mapper → SQL 실행 → DB에서 데이터 조회.
   ↓
-[7] 결과를 Controller로 다시 전달
+[7] 결과를 Controller로 다시 전달.
   ↓
-[8] View(JSP)에 데이터를 넘기거나 JSON 응답
+[8] View(JSP)에 데이터를 넘기거나 JSON 응답.
 ```
 
 ---

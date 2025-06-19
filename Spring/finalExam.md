@@ -152,7 +152,7 @@ public void sendEmail(...) { ... }
 
 ## ✅ 14. `ThreadLocal`
 
-- 현재 쓰레드에만 값을 저장
+- 현재 쓰레드에만 값을 저장.
 ```java
 ThreadLocal<String> threadLocal = new ThreadLocal<>();
 threadLocal.set("UserID");
